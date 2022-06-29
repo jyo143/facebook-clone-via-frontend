@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SocialBook - website design</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/9fccf5650e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+		<nav>
+			<div class="nav-left">
+				<img src="images/logo.png" class="logo" width="50" height="50">
+				<ul>
+					<li><img src="images/notification.jpg" width="30" height="30" vspace="2"></li>
+					<li><img src="images/inbox.jpg" width="30" height="30" vspace="2"></li>
+					<li><img src="images/vid.png" width="30" height="30" vspace="2"></li>
+				</ul>
+			</div>
+			<div class="nav-right">
+				<div class="search-box">
+					<img src="images/search.png" width="20" height="20">
+					<input type="text" placeholder="Search">
+				</div>
+				<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+					<img src="images/profile pic.jpg" width="50" height="50">
+				</div>
+			</div>
+			<!-----------Settings-menu--------------->
+			<div class="settings-menu">
+				<div id="dark-btn" >
+					<span></span>
+					
+				</div>
+
+
+
+
+
+
+				<div class="settings-menu-inner">
+					<div class="user-profile">
+   						<img src="images/profile pic.jpg" width="50" height="50">
+   						<div>
+   							<p>Priyankapasinapalli</p>
+   							<a href="#">See your profile</a>
+   						</div>
+   					</div>
+   					<hr>
+   					<div class="user-profile">
+   						<img src="images/feedback.png" width="40" height="40">
+   						<div>
+   							<p>Give Feedback</p>
+   							<a href="#">Help me to improve designs</a>
+   						</div>
+   					</div>	
+   					<hr>
+   					<div class="settings-links">
+   						<img src="images/setting.jpg" class="settings-icon" width="50" height="50">
+   						<a href="#">Settings & Privacy <img src="images/arrow.png" width="10" height="10"></a>
+   					</div>
+   					<div class="settings-links">
+   						<img src="images/help.png" class="settings-icon" width="50" height="50">
+   						<a href="#">Help & Support <img src="images/arrow.png" width="10" height="10"></a>
+   					</div>
+   					<div class="settings-links">
+   						<img src="images/display.png" class="settings-icon" width="50" height="50">
+   						<a href="#">Display & Accessibility <img src="images/arrow.png" width="10" height="10"></a>
+   					</div>
+   					<div class="settings-links">
+   						<img src="images/logout.jpg" class="settings-icon" width="50" height="50">
+   						<a href="#">Logout <img src="images/arrow.png" width="10" height="10"></a>
+   					</div>
+				</div>
+			</div>
+		</nav>
+   <div class="container">
+   	<!-----------left-sidebar--------------->
+   	<div class="left-sidebar">
+   		<div class="imp-links">
+   			<a href="#"><img src="images/news.png" width="30px" height="30px">Latest News</a>
+   			<a href="#"><img src="images/friends.png"width="30px" height="30px">Friends</a>
+   			<a href="#"><img src="images/group.jpg"width="30px" height="30px">Group</a>
+   			<a href="#"><img src="images/marketplace.png"width="30px" height="30px">marketplace</a>
+   			<a href="#"><img src="images/watch.png"width="30px" height="30px">Watch</a>
+   			<a href="#">See More</a>
+   		</div>
+   		<div class="shortcut-links">
+   			<p> Your Shortcuts</p>
+   			<a href="#"><img src="images/shortcut-1.jpg" width="50" height="50">Web Developers</a>
+   			<a href="#"><img src="images/shortcut-2.jpg" width="50" height="50">Web Design</a>
+   			<a href="#"><img src="images/shortcut-3.jpg" width="50" height="50">Full Stack Development</a>
+   			<a href="#"><img src="images/shortcut-4.jpg" width="50" height="50">Website Experts</a>
+   		</div>
+
+   	</div>
+   		<!-----------main-content--------------->
+   	<div class="main-content">
+   		<div class="story-gallery">
+   			<div class="story story1">
+   				<img src="images/upload.png"width="40" height="40">
+   				<p>Post Story</p>
+   			</div>
+   			<div class="story story2">
+   				<img src="images/member-1.jpg"width="40" height="40">
+   				<p>Srinivasarao Dannana</p>
+   			</div>
+   			<div class="story story3">
+   				<img src="images/member-2.jpg"width="40" height="40">
+   				<p>Ramalakshmi Dannana</p>
+   			</div>
+   			<div class="story story4">
+   				<img src="images/member-3.jpg"width="40" height="40">
+   				<p>Thanooja Bali</p>
+   			</div>
+   			<div class="story story5">
+   				<img src="images/member-4.jpg"width="40" height="40">
+   				<p>Jyothsna Dannana</p>
+   			</div>
+   		</div>
+   		<div class="write-post-container">
+   			<div class="user-profile">
+   				<img src="images/profile pic.jpg" width="50" height="50">
+   				<div>
+   					<p>Priyanka</p>
+   					<small>Public<i class="fa-solid fa-sort-down"></i></small>
+   				</div>
+   			</div>
+   			<div class="post-input-container">
+   				<textarea rows="3" placeholder="whats's on your mind,priya"></textarea>
+   				<div class="add-post-links">
+   					<a href="#"><img src="images/live-video.png" width="40" height="40">Live video</a>
+   					<a href="#"><img src="images/photo.jpg"width="40" height="40">Photo/video</a>
+   					<a href="#"><img src="images/feeling.jpg"width="40" height="40">Feeling/Activity</a>
+   				</div>
+   			</div>
+   		</div>
+   		<div class="post-container">
+   			<div class="post-row">
+   				<div class="user-profile">
+   					<img src="images/profile pic.jpg" width="50" height="50">
+   					<div>
+   						<p>Priyanka</p>
+   						<span>July 7 2021,3:40pm </span>
+   					</div>
+   				</div>
+   				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+   			</div>
+   			
+   			<p class="post-text">Always maintain a <span>smile </span>on face even hard times too and spread your love <a href="#">@priyapasinapalli</a>  
+   				<a href="#">@jyothsnadannana</a></p>
+   			<img src="images/feedback-image1.jpg" class="post-img">
+   			<div class="post-row">
+   				<div class="activity-icons">
+   					<div><img src="images/like-blue.png">120</div>
+   					<div><img src="images/comment.png">25</div>
+   					<div><img src="images/share.png">45</div>
+   				</div>
+   				<div class="post-profile-icon">
+   					<img src="images/profile pic.jpg"><i class="fa-solid fa-sort-down"></i>
+   				</div>
+   			</div>
+   		</div>
+   		<div class="post-container">
+   			<div class="post-row">
+   				<div class="user-profile">
+   					<img src="images/profile pic.jpg" width="50" height="50">
+   					<div>
+   						<p>Priyanka</p>
+   						<span>Dec 2021,1:40pm </span>
+   					</div>
+   				</div>
+   				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+   			</div>
+   			
+   			<p class="post-text">No Matter how hard it is!!! always be with  your family <span>Keep Smile </span>save enivornment  <a href="#">@priyapasinapalli</a>  
+   				<a href="#">@jyothsnadannana</a></p>
+   			<img src="images/feedback-image2.jpg" class="post-img">
+   			<div class="post-row">
+   				<div class="activity-icons">
+   					<div><img src="images/like.jpg">120</div>
+   					<div><img src="images/comment.png">25</div>
+   					<div><img src="images/share.png">45</div>
+   				</div>
+   				<div class="post-profile-icon">
+   					<img src="images/profile pic.jpg"><i class="fa-solid fa-sort-down"></i>
+   				</div>
+   			</div>
+   		</div>
+   		<div class="post-container">
+   			<div class="post-row">
+   				<div class="user-profile">
+   					<img src="images/profile pic.jpg" width="50" height="50">
+   					<div>
+   						<p>Priyanka</p>
+   						<span>Jan 1 2022,4:40pm </span>
+   					</div>
+   				</div>
+   				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+   			</div>
+   			
+   			<p class="post-text">Success will not come at a time but  it will come definitely <span>wait</span> unitl you get it <a href="#">@priyapasinapalli</a>  
+   				<a href="#">@jyothsnadannana</a></p>
+   			<img src="images/feedback-image3.jpg" class="post-img">
+   			<div class="post-row">
+   				<div class="activity-icons">
+   					<div><img src="images/like-blue.png">120</div>
+   					<div><img src="images/comment.png">25</div>
+   					<div><img src="images/share.png">45</div>
+   				</div>
+   				<div class="post-profile-icon">
+   					<img src="images/profile pic.jpg"><i class="fa-solid fa-sort-down"></i>
+   				</div>
+   			</div>
+   		</div>
+   		<div class="post-container">
+   			<div class="post-row">
+   				<div class="user-profile">
+   					<img src="images/profile pic.jpg" width="50" height="50">
+   					<div>
+   						<p>Priyanka</p>
+   						<span>Feb 21 2022,2:40pm </span>
+   					</div>
+   				</div>
+   				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+   			</div>
+   			
+   			<p class="post-text">Dont't waste anything every  minute thing will help to the  needy people<span>Help Others</span> save them  <a href="#">@priyapasinapalli</a>  
+   				<a href="#">@jyothsnadannana</a></p>
+   			<img src="images/feedback-image4.jpg" class="post-img">
+   			<div class="post-row">
+   				<div class="activity-icons">
+   					<div><img src="images/like-blue.png">120</div>
+   					<div><img src="images/comment.png">25</div>
+   					<div><img src="images/share.png">45</div>
+   				</div>
+   				<div class="post-profile-icon">
+   					<img src="images/profile pic.jpg"><i class="fa-solid fa-sort-down"></i>
+   				</div>
+   			</div>
+   		</div>
+   		<div class="post-container">
+   			<div class="post-row">
+   				<div class="user-profile">
+   					<img src="images/profile pic.jpg" width="50" height="50">
+   					<div>
+   						<p>Priyanka</p>
+   						<span> Maay 1 2022,11:40am </span>
+   					</div>
+   				</div>
+   				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+   			</div>
+   			
+   			<p class="post-text">Friends are Forever !!!<span>Enjoy each and every moment</span>Live the life and Love the life what you will live ...Persons come and go but <span>Friends</span> are forever don't leave them!!!<a href="#">@priyapasinapalli</a>  
+   				<a href="#">@jyothsnadannana</a></p>
+   			<img src="images/feedback-image5.jpg" class="post-img">
+   			<div class="post-row">
+   				<div class="activity-icons">
+   					<div><img src="images/like-blue.png">120</div>
+   					<div><img src="images/comment.png">25</div>
+   					<div><img src="images/share.png">45</div>
+   				</div>
+   				<div class="post-profile-icon">
+   					<img src="images/profile pic.jpg"><i class="fa-solid fa-sort-down"></i>
+   				</div>
+   			</div>
+   		</div>
+   		<button type="button" class="load-more-btn">Load More</button>
+
+
+
+   	</div>
+   		<!-----------right-sidebar--------------->
+   	<div class="right-sidebar">
+   		<div class="sidebar-title">
+   			<h4>Events</h4>
+   			<a href="#">See All</a>
+   		</div>
+   		<div class="event"> 
+   			<div class="left-event">
+   				<h3>15</h3>
+   				<span>June</span>
+   			</div>
+   			<div class="right-event">
+   				<h4>Social Media</h4>
+   				<p><i class="fa-solid fa-location-dot"></i>RGUKT,Nuzvid</p>
+   				<a href="#">More Info</a>
+   			</div>
+   		</div>
+   		<div class="event"> 
+   			<div class="left-event">
+   				<h3>7</h3>
+   				<span>July</span>
+   			</div>
+   			<div class="right-event">
+   				<h4>Mobile Marketing</h4>
+   				<p><i class="fa-solid fa-location-dot"></i>RGUKT,Nuzvid</p>
+   				<a href="#">More Info</a>
+   			</div>
+   		</div>
+   		<div class="sidebar-title">
+   			<h4>Advertisement</h4>
+   			<a href="#">close</a>
+   		</div>
+   		<img src="images/advertisement.jpg" class="sidebar-ads" width="120px" height="120px">
+   		<div class="sidebar-title">
+   			<h4>Conversation</h4>
+   			<a href="#">Hide Chat</a>
+   		</div>
+   		<div class="online-list">
+   			<div class="online">
+   				<img src="images/member-1.jpg" width="50px" height="50px">
+   			</div>
+   			<p>Srinivasa Rao Dannana</p>
+   		</div>
+   		<div class="online-list">
+   			<div class="online">
+   				<img src="images/member-2.jpg" width="50px" height="50px">
+   			</div>
+   			<p>Ramalakshmi Dannana</p>
+   		</div>
+   		<div class="online-list">
+   			<div class="online">
+   				<img src="images/member-3.jpg" width="50px" height="50px">
+   			</div>
+   			<p>Thanooja Bali</p>
+   		</div>
+   	</div>
+   </div>
+<div class="footer">
+	<p>Copyright 2022-Jyothsna Dannana</p>
+</div>
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
